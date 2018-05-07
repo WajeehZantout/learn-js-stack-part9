@@ -12,6 +12,7 @@ import HelloPage from './component/page/hello'
 import HelloAsyncPage from './component/page/hello-async'
 import NotFoundPage from './component/page/not-found'
 import { HOME_PAGE_ROUTE, HELLO_PAGE_ROUTE, HELLO_ASYNC_PAGE_ROUTE } from './routes'
+import Footer from './component/footer'
 
 const App = () => (
   <div style={{ paddingTop: 54 }}>
@@ -23,6 +24,7 @@ const App = () => (
       <Route path={HELLO_ASYNC_PAGE_ROUTE} render={() => <HelloAsyncPage />} />
       <Route component={NotFoundPage} />
     </Switch>
+    <Footer />
   </div>
 )
 
