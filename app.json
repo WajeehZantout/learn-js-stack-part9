@@ -1,18 +1,12 @@
 {
   "name": "learn-js-stack-part9",
-  "scripts": {
-  },
+  "scripts": {},
   "env": {
     "NPM_CONFIG_PRODUCTION": {
-      "required": true
+      "required": false
     }
   },
-  "formation": {
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-
-  ]
+  "formation": {},
+  "addons": [],
+  "buildpacks": []
 }
